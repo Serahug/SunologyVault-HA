@@ -1,0 +1,67 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sunology VAULT",
+        "description": "Enter your Sunology Stream credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate",
+        "description": "Session expired for {email}. Please enter your password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication"
+    },
+    "abort": {
+      "already_configured": "Account already configured",
+      "reauth_successful": "Reauthentication successful"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_level": {
+        "name": "Battery Level"
+      },
+      "battery_state": {
+        "name": "Battery State",
+        "state": {
+          "off": "Idle",
+          "charging": "Charging",
+          "discharging": "Discharging"
+        }
+      },
+      "battery_energy": {
+        "name": "Available Energy"
+      }
+    },
+    "switch": {
+      "preserve_energy": {
+        "name": "Preserve Energy"
+      }
+    },
+    "number": {
+      "discharge_threshold": {
+        "name": "Discharge Threshold"
+      }
+    }
+  }
+}

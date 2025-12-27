@@ -1,0 +1,67 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sunology VAULT",
+        "description": "Entrez vos identifiants Sunology Stream.",
+        "data": {
+          "email": "Email",
+          "password": "Mot de passe"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnexion",
+        "description": "Session expirée pour {email}. Veuillez entrer votre mot de passe.",
+        "data": {
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter",
+      "invalid_auth": "Authentification invalide"
+    },
+    "abort": {
+      "already_configured": "Compte déjà configuré",
+      "reauth_successful": "Reconnexion réussie"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Intervalle de mise à jour (secondes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_level": {
+        "name": "Niveau de batterie"
+      },
+      "battery_state": {
+        "name": "État de la batterie",
+        "state": {
+          "off": "En veille",
+          "charging": "En charge",
+          "discharging": "En décharge"
+        }
+      },
+      "battery_energy": {
+        "name": "Énergie disponible"
+      }
+    },
+    "switch": {
+      "preserve_energy": {
+        "name": "Préserver l'énergie"
+      }
+    },
+    "number": {
+      "discharge_threshold": {
+        "name": "Seuil de décharge"
+      }
+    }
+  }
+}
