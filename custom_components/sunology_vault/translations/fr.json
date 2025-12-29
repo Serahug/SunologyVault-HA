@@ -44,7 +44,7 @@
       "battery_state": {
         "name": "État de la batterie",
         "state": {
-          "off": "En veille",
+          "off": "Inactif",
           "charging": "En charge",
           "discharging": "En décharge"
         }
@@ -55,7 +55,7 @@
     },
     "switch": {
       "preserve_energy": {
-        "name": "Préserver l'énergie"
+        "name": "Conserver l'énergie"
       }
     },
     "number": {
