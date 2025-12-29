@@ -29,7 +29,7 @@ This integration connects to the [Sunology STREAM](https://sunology.eu/products/
 ## Installation (HACS)
 
 1. In HACS, go to **Integrations** > **...** (menu) > **Custom repositories**
-2. Add `https://github.com/Serahug/SunologyVault-HA` as **Integration**
+2. Add `https://github.com/serahug/sunology-vault-ha` as **Integration**
 3. Install **Sunology VAULT**
 4. Restart Home Assistant
 5. Go to **Settings** > **Devices & Services** > **Add Integration** > **Sunology VAULT**

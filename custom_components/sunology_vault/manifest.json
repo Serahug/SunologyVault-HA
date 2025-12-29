@@ -1,10 +1,10 @@
 {
   "domain": "sunology_vault",
   "name": "Sunology VAULT Home Assistant Integration",
-  "codeowners": ["@Serahug"],
+  "codeowners": ["@serahug"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/Serahug/SunologyVault-HA",
+  "documentation": "https://github.com/serahug/sunology-vault-ha",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "requirements": [],
