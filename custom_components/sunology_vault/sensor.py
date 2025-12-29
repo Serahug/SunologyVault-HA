@@ -113,6 +113,16 @@ class SunologyBatteryStateSensor(
             return battery.battery_state.lower()
         return None
 
+    @property
+    def icon(self) -> str:
+        """Return icon based on battery state."""
+        state = self.native_value
+        if state == "charging":
+            return "mdi:battery-charging"
+        if state == "discharging":
+            return "mdi:battery-arrow-down"
+        return "mdi:battery-off"
+
 
 class SunologyBatteryEnergySensor(
     CoordinatorEntity[SunologyDataUpdateCoordinator], SensorEntity
